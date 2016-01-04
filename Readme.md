@@ -18,3 +18,4 @@ All
 * Data viz.
 
 # Practice Sessions
+  * 2015-01-04: Threaded Work Queue.
