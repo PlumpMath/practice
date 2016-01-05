@@ -12,6 +12,10 @@ platform_test: lib/platform_test.c
 gui: FORCE
 	clang -dynamiclib -undefined dynamic_lookup $(CFLAGS) -o ${PRACTICE}.dylib ${PRACTICE}.c
 
+# can also just do make 1234-12-12 and skip this target.
+cli: FORCE
+	clang $(CFLAGS) -o ${PRACTICE} ${PRACTICE}.c
+
 check-syntax:
 	clang -o /dev/null $(CFLAGS) $(ALL_LIBS) -S ${CHK_SOURCES}
 
