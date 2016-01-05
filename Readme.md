@@ -14,5 +14,16 @@ large. Use of libraries or prebuilt scaffolding are permitted so I can focus on 
   * Data viz.
   * Maybe some audo stuff.
 
-## Practice Sessions
-  * 2015-01-04: Threaded Work Queue.
+## Practice Log
+* #####2015-01-04: Threaded Work Queue.
+    
+    **Problem**: Build a multithreaded circular work queue using processor atomics.
+
+    **Time**: 37 minutes
+    
+    I managed to get a little linear single producer multiple consumer work queue up and
+    running in half an hour. I didn't get to making it a ring buffer. It could be cool to
+    try and build on this to implement different concurrency patterns but I don't know if
+    that is against the rules or not. I feel like 30 minutes isn't much time and it takes
+    about 30 mins to type out all the boilerplate to do this. We'll see though, maybe it's
+    just because I'm rusty. Felt overall like a good first day.
