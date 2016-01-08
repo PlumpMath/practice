@@ -33,7 +33,7 @@ permitted so I can focus on specific problems rather than boilerplate.
 
     **Problem**: Get a cube up on the screen with opengl.
 
-    **Time**:     1 hour 21 minutes
+    **Time**: 1 hour 21 minutes
 
     This took me a lot longer than I expected. Getting the shader code up and running was
     pretty easy, that was mostly a copy paste job of the code to handle errors. Then I had
@@ -50,6 +50,15 @@ permitted so I can focus on specific problems rather than boilerplate.
     and that took forever to figure out because afaik there's no easy way to debug opengl. Opengl
     kinda really sucks because of the no debugging thing, hopefully more practice will make it
     a lot less tedious though.
-    
 
-    
+* #####2015-01-08: Compress Image.
+
+  **Problem**: Load a pixel art screenshot and compress it to just be 1 pixel per logical pixel.
+
+  **Time**: 1 hour 20 minutes
+
+  This one is directly related to a side project where I want to write a program that plays the
+  binding of isaac. Later practices might be about image recognition but this one is just to load
+  a file and compress it. It didn't take too long to read and write the image thanks to stb_image.
+  Most of the work was just getting the compression math right, I knew that this image was
+  compressed by 3 so I just hardcoded that, in my real app that might not be the case.

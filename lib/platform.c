@@ -184,11 +184,11 @@ main(int argc, char* argv[])
         }
 
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-        /* nvgBeginFrame(memory.vg, memory.display_height, memory.display_width, memory.drawable_height/memory.display_height); */
+        nvgBeginFrame(memory.vg, memory.display_height, memory.display_width, memory.drawable_height/memory.display_height);
 
         current_game.game->update_and_render(&memory);
 
-        /* nvgEndFrame(memory.vg); */
+        nvgEndFrame(memory.vg);
 
         update_time = SDL_GetTicks() - start_time;
 
